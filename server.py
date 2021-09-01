@@ -2,17 +2,17 @@
 
 async def main(_):
     social = None
+
+    # vk
     admin_loop = VkLoop(config.admin, until.get_user_token(), is_user=True)
     for group_id, token in config.token.items():
         social = VkClass(group_id, token, Bot.route, admin_loop=admin_loop)
 
-    Global.cover = CoverCreator([
-        193674464,
-        30688695,
-        168691465,
-    ], social)
+    # group cover
+    Global.cover = CoverCreator([], social)
     Global.start_task(Global.cover.mainapp())
 
+    # telegram
     for id_token, token in config.token_telegram.items():
         Telegram(id_token, token, Bot.route)
 
