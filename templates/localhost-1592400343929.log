@@ -1,0 +1,14 @@
+Unchecked runtime.lastError: The message port closed before a response was received.
+Unchecked runtime.lastError: The message port closed before a response was received.
+Unchecked runtime.lastError: The message port closed before a response was received.
+Unchecked runtime.lastError: The message port closed before a response was received.
+Unchecked runtime.lastError: The message port closed before a response was received.
+Unchecked runtime.lastError: The message port closed before a response was received.
+Unchecked runtime.lastError: The message port closed before a response was received.
+Unchecked runtime.lastError: The message port closed before a response was received.
+hello.js:1 Failed to load module script: The server responded with a non-JavaScript MIME type of "text/plain". Strict MIME type checking is enforced for module scripts per HTML spec.
+DevTools failed to load SourceMap: Could not load content for chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/atoms.js.map: HTTP error: status code 404, net::ERR_UNKNOWN_URL_SCHEME
+DevTools failed to load SourceMap: Could not load content for chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/polyfills.js.map: HTTP error: status code 404, net::ERR_UNKNOWN_URL_SCHEME
+DevTools failed to load SourceMap: Could not load content for chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/escape.js.map: HTTP error: status code 404, net::ERR_UNKNOWN_URL_SCHEME
+DevTools failed to load SourceMap: Could not load content for chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/playback.js.map: HTTP error: status code 404, net::ERR_UNKNOWN_URL_SCHEME
+DevTools failed to load SourceMap: Could not load content for chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/record.js.map: HTTP error: status code 404, net::ERR_UNKNOWN_URL_SCHEME

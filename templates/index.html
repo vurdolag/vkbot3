@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>ТОП МЕМЫ</title>
+    <link rel="stylesheet" type="text/css" href="templates/1.css">
+</head>
+
+<body style="background-color:black;">
+{% for mes_user in messages %}
+        <h3 class="header1">{{ mes_user[0] }}</h3>
+        <h3 class="header">{{ mes_user[1] }}</h3>
+{% endfor %}
+
+
+<form action="/" method="get" accept-charset="utf-8" class="btn2"
+      enctype="application/x-www-form-urlencoded">
+
+    <label for="login"><h3 class="header">Your message</h3></label>
+    <input id="login" name="text" type="text" value="" autofocus/>
+    <input class="btn" type="submit" value="send"/>
+
+</form>
+
+</body>
+</html>
